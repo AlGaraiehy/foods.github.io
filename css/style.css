@@ -1,0 +1,140 @@
+
+
+header{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment:fixed;
+}
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #FFC107;
+}
+.navbar-brand{
+    color: #FFC107;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand:hover{
+    color: #FFC107;
+    
+}
+.nav-item{
+    padding-left: 15px;
+}
+h2{
+    text-align: center;
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h2::after{
+    content: "";
+    display: block;
+    width: 100px; height: 4px;
+    background-color: #FFC107;
+    margin: 20px auto;
+}
+
+.meal{
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+.bg-transparent.scrolled {
+    background:linear-gradient(rgba(0, 0, 0,.8), rgba(0, 0, 0,.8))  !important;
+}
+.meal img{
+    opacity: .5;
+    transition: all 1s;
+    transform: scale(1.1);
+   
+}
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.works-step div{
+    border: 2px solid #FFC107;
+    width: 60px; height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFC107;
+	float: left;
+	font-size: 200%;
+	margin-right: 25px
+}
+.A{
+    text-decoration: underline;
+     color: #FFC107; 
+}
+.A:hover{
+    text-decoration: none;
+     color: #FFC107; 
+}
+.A1:hover , .A2:hover{
+     color: #fff; 
+}
+.A2{
+     color: #fff; 
+     width: 45%;
+    
+}
+
+
+.testimonials{
+    background:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(../images/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    background-attachment:fixed; color:#fff;
+}
+cite img{
+    vertical-align: middle;
+    border-radius:50%;
+    max-width:20%;
+    margin:15px 5px 0 0;
+    border:2px solid #e67e22;
+}
+blockquote{
+    position:relative;
+    margin-top:50px;
+    font-style:italic;
+    font-size:100%;
+}
+blockquote:before{
+    font-size:400%;
+    content:"\201c";
+    display:block;
+    position:absolute;
+    top:-45px;
+}
+.sign:hover{
+    color: #fff;
+}
+.footer-nav{
+    list-style: none;
+}
+.footer-nav li{
+    display: inline;
+    margin-right: 15px;
+}
+.footer-nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.social-links{
+    list-style: none;
+}
+.social-links li{
+    display: inline;
+    margin-right: 15px;
+}
+footer a,p{
+    color: #888888;
+}
